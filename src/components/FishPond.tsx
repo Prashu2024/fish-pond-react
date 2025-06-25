@@ -80,7 +80,11 @@ const FishPond: React.FC = () => {
           resizeTo: window
         }}
       >
-        <Background width={dimensions.width} height={dimensions.height} />
+        <Background 
+          width={dimensions.width} 
+          height={dimensions.height}
+          backgroundImage={currentThemeData.backgroundImage}
+        />
         
         {fishes.map(fish => (
           <Fish

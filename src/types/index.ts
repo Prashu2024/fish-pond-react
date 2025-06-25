@@ -29,6 +29,7 @@ export type FishType = 'fish1' | 'fish2' | 'fish3' | 'fish4' | 'fish5';
 export interface BackgroundProps {
   width: number;
   height: number;
+  backgroundImage: string;
 }
 
 export interface FishProps {

@@ -1,5 +1,5 @@
 // README.md
-# Fish Pond React + Pixi.js TypeScript Project
+# Fish Pond React with Pixi.js
 
 A beautiful, interactive fish pond simulation built with React, Pixi.js, and TypeScript. This project demonstrates the integration of Pixi.js rendering capabilities with React's component architecture.
 
@@ -26,7 +26,7 @@ A beautiful, interactive fish pond simulation built with React, Pixi.js, and Typ
 1. Clone the repository:
 ```bash
 git clone https://github.com/Prashu2024/fish-pond-react.git
-cd fish-pond-react-pixi
+cd fish-pond-react
 ```
 
 2. Install dependencies:

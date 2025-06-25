@@ -19,7 +19,7 @@ const Controls: React.FC<ControlsProps> = ({
   themes
 }) => {
   return (
-    <div className="fixed top-4 left-4 bg-white bg-opacity-90 rounded-lg p-4 shadow-lg z-50">
+    <div className="fixed top-4 left-4 bg-white bg-opacity-90 rounded-lg p-4 shadow-lg z-50 max-h-[calc(100vh-32px)] overflow-y-auto">
       <h3 className="font-bold mb-3 text-gray-800">Fish Pond Controls</h3>
       
       <div className="mb-4">
