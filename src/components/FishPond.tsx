@@ -6,6 +6,7 @@ import { FishData, FishClickData, FishType, PondTheme } from '../types';
 import { generateRandomFish } from '../utils/fishUtils';
 import Background from './Background';
 import Fish from './Fish';
+import WaterOverlay from './WaterOverlay';
 import FishInfoModal from './FishInfoModal';
 import Controls from './Controls';
 
@@ -85,7 +86,7 @@ const FishPond: React.FC = () => {
           height={dimensions.height}
           backgroundImage={currentThemeData.backgroundImage}
         />
-        
+        <WaterOverlay width={dimensions.width} height={dimensions.height} />
         {fishes.map(fish => (
           <Fish
             key={fish.id}

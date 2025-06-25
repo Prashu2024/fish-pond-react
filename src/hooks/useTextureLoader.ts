@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Assets } from '@pixi/assets';
-import { Texture } from '@pixi/texture';
+import { Texture } from '@pixi/core';
 
 export const useTextureLoader = (url: string): Texture | null => {
   const [texture, setTexture] = useState<Texture | null>(null);
