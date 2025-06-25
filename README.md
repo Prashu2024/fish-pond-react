@@ -25,7 +25,7 @@ A beautiful, interactive fish pond simulation built with React, Pixi.js, and Typ
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Prashu2024/fish-pond-react.git
 cd fish-pond-react-pixi
 ```
 
